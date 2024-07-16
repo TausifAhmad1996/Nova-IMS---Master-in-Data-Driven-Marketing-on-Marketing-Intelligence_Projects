@@ -1,0 +1,909 @@
+<?xml version="1.0" encoding="UTF-8"?><_ROOT_ EMVERSION="15.2" ORIENTATION="HORIZONTAL">
+<Workspace>
+<NODES>
+<NODE CLASS="SASHELP.EMUTIL.CONTROLPOINT.CLASS" COMPONENT="ControlPoint" ID="CNTRL" X="585" Y="221" DESCRIPTION="Control Point" DIAGRAMID="_ROOT_" PARENTID="">
+<PROPERTIES/>
+</NODE>
+<NODE CLASS="SASHELP.EMUTIL.CONTROLPOINT.CLASS" COMPONENT="ControlPoint" ID="CNTRL2" X="892" Y="227" DESCRIPTION="Control Point" DIAGRAMID="_ROOT_" PARENTID="">
+<PROPERTIES/>
+</NODE>
+<NODE CLASS="SASHELP.EMUTIL.CONTROLPOINT.CLASS" COMPONENT="ControlPoint" ID="CNTRL3" X="1245" Y="197" DESCRIPTION="Control Point (3)" DIAGRAMID="_ROOT_" PARENTID="">
+<PROPERTIES/>
+</NODE>
+<NODE CLASS="SASHELP.EMUTIL.CONTROLPOINT.CLASS" COMPONENT="ControlPoint" ID="CNTRL4" X="2650" Y="282" DESCRIPTION="Control Point (4)" DIAGRAMID="_ROOT_" PARENTID="">
+<PROPERTIES/>
+</NODE>
+<NODE CLASS="SASHELP.EMEXPL.CLUSTER.CLASS" COMPONENT="Cluster" ID="Clus" X="2177" Y="84" DESCRIPTION="K=3" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="EXPLORE" TOOLPREFIX="Clus">
+<PROPERTIES Bins="100" Clusvar="_SEGMENT_" ClusvarLabel="Segment Variable" ClusvarRole="SEGMENT" MaxC="3" NominalEncoding="GLM" OrdinalEncoding="RANK" MissingInterval="DEFAULT" MissingNominal="DEFAULT" MissingOrdinal="DEFAULT" ImputationMethod="NONE" HideVariable="Y" TrainDefaults="Y" Learn="." LearnInitial="0.5" LearnFinal="0.02" LearnSteps="1000" MaxIter="10" MaxSteps="1200" XConv="0.0001" Initial="DEFAULT" Drift="N" Radius="0" Stdize="STD" Summary="N" TreeProfile="Y" ClusterGraphs="Y" NumberClusterMethod="USER" DistancePlot="Y" FinalMaxNum="20" AutomaticMaxNum="50" AutomaticMinNum="2" AutomaticMethod="WARD" CCCCutOff="3" ForceRun="N" RunAction="Train" Component="Cluster">
+<VariableProperties/>
+<EmTargetAttributes/>
+<EmVariableAttributes/>
+<EmFileProperties>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMEXPL.CLUSTER.CLASS" COMPONENT="Cluster" ID="Clus2" X="2179" Y="137" DESCRIPTION="K=4" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="EXPLORE" TOOLPREFIX="Clus">
+<PROPERTIES Bins="100" Clusvar="_SEGMENT_" ClusvarLabel="Segment Variable" ClusvarRole="SEGMENT" MaxC="4" NominalEncoding="GLM" OrdinalEncoding="RANK" MissingInterval="DEFAULT" MissingNominal="DEFAULT" MissingOrdinal="DEFAULT" ImputationMethod="NONE" HideVariable="Y" TrainDefaults="Y" Learn="." LearnInitial="0.5" LearnFinal="0.02" LearnSteps="1000" MaxIter="10" MaxSteps="1200" XConv="0.0001" Initial="DEFAULT" Drift="N" Radius="0" Stdize="STD" Summary="N" TreeProfile="Y" ClusterGraphs="Y" NumberClusterMethod="USER" DistancePlot="Y" FinalMaxNum="20" AutomaticMaxNum="50" AutomaticMinNum="2" AutomaticMethod="WARD" CCCCutOff="3" ForceRun="N" RunAction="Train" Component="Cluster">
+<VariableProperties/>
+<EmTargetAttributes/>
+<EmVariableAttributes/>
+<EmFileProperties>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMEXPL.CLUSTER.CLASS" COMPONENT="Cluster" ID="Clus3" X="2180" Y="195" DESCRIPTION="K=5" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="EXPLORE" TOOLPREFIX="Clus">
+<PROPERTIES Bins="100" Clusvar="_SEGMENT_" ClusvarLabel="Segment Variable" ClusvarRole="SEGMENT" MaxC="5" NominalEncoding="GLM" OrdinalEncoding="RANK" MissingInterval="DEFAULT" MissingNominal="DEFAULT" MissingOrdinal="DEFAULT" ImputationMethod="NONE" HideVariable="Y" TrainDefaults="Y" Learn="." LearnInitial="0.5" LearnFinal="0.02" LearnSteps="1000" MaxIter="10" MaxSteps="1200" XConv="0.0001" Initial="DEFAULT" Drift="N" Radius="0" Stdize="STD" Summary="N" TreeProfile="Y" ClusterGraphs="Y" NumberClusterMethod="USER" DistancePlot="Y" FinalMaxNum="20" AutomaticMaxNum="50" AutomaticMinNum="2" AutomaticMethod="WARD" CCCCutOff="3" ForceRun="N" RunAction="Train" Component="Cluster">
+<VariableProperties/>
+<EmTargetAttributes/>
+<EmVariableAttributes/>
+<EmFileProperties>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMEXPL.CLUSTER.CLASS" COMPONENT="Cluster" ID="Clus4" X="2183" Y="256" DESCRIPTION="K=6" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="EXPLORE" TOOLPREFIX="Clus">
+<PROPERTIES Bins="100" Clusvar="_SEGMENT_" ClusvarLabel="Segment Variable" ClusvarRole="SEGMENT" MaxC="6" NominalEncoding="GLM" OrdinalEncoding="RANK" MissingInterval="DEFAULT" MissingNominal="DEFAULT" MissingOrdinal="DEFAULT" ImputationMethod="NONE" HideVariable="Y" TrainDefaults="Y" Learn="." LearnInitial="0.5" LearnFinal="0.02" LearnSteps="1000" MaxIter="10" MaxSteps="1200" XConv="0.0001" Initial="DEFAULT" Drift="N" Radius="0" Stdize="STD" Summary="N" TreeProfile="Y" ClusterGraphs="Y" NumberClusterMethod="USER" DistancePlot="Y" FinalMaxNum="20" AutomaticMaxNum="50" AutomaticMinNum="2" AutomaticMethod="WARD" CCCCutOff="3" ForceRun="N" RunAction="Train" Component="Cluster">
+<VariableProperties/>
+<EmTargetAttributes/>
+<EmVariableAttributes/>
+<EmFileProperties>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMEXPL.CLUSTER.CLASS" COMPONENT="Cluster" ID="Clus5" X="2185" Y="321" DESCRIPTION="K=7" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="EXPLORE" TOOLPREFIX="Clus">
+<PROPERTIES Bins="100" Clusvar="_SEGMENT_" ClusvarLabel="Segment Variable" ClusvarRole="SEGMENT" MaxC="7" NominalEncoding="GLM" OrdinalEncoding="RANK" MissingInterval="DEFAULT" MissingNominal="DEFAULT" MissingOrdinal="DEFAULT" ImputationMethod="NONE" HideVariable="Y" TrainDefaults="Y" Learn="." LearnInitial="0.5" LearnFinal="0.02" LearnSteps="1000" MaxIter="10" MaxSteps="1200" XConv="0.0001" Initial="DEFAULT" Drift="N" Radius="0" Stdize="STD" Summary="N" TreeProfile="Y" ClusterGraphs="Y" NumberClusterMethod="USER" DistancePlot="Y" FinalMaxNum="20" AutomaticMaxNum="50" AutomaticMinNum="2" AutomaticMethod="WARD" CCCCutOff="3" ForceRun="N" RunAction="Train" Component="Cluster">
+<VariableProperties/>
+<EmTargetAttributes/>
+<EmVariableAttributes/>
+<EmFileProperties>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMEXPL.CLUSTER.CLASS" COMPONENT="Cluster" ID="Clus6" X="2186" Y="379" DESCRIPTION="K=8" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="EXPLORE" TOOLPREFIX="Clus">
+<PROPERTIES Bins="100" Clusvar="_SEGMENT_" ClusvarLabel="Segment Variable" ClusvarRole="SEGMENT" MaxC="8" NominalEncoding="GLM" OrdinalEncoding="RANK" MissingInterval="DEFAULT" MissingNominal="DEFAULT" MissingOrdinal="DEFAULT" ImputationMethod="NONE" HideVariable="Y" TrainDefaults="Y" Learn="." LearnInitial="0.5" LearnFinal="0.02" LearnSteps="1000" MaxIter="10" MaxSteps="1200" XConv="0.0001" Initial="DEFAULT" Drift="N" Radius="0" Stdize="STD" Summary="N" TreeProfile="Y" ClusterGraphs="Y" NumberClusterMethod="USER" DistancePlot="Y" FinalMaxNum="20" AutomaticMaxNum="50" AutomaticMinNum="2" AutomaticMethod="WARD" CCCCutOff="3" ForceRun="N" RunAction="Train" Component="Cluster">
+<VariableProperties/>
+<EmTargetAttributes/>
+<EmVariableAttributes/>
+<EmFileProperties>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMEXPL.CLUSTER.CLASS" COMPONENT="Cluster" ID="Clus7" X="2189" Y="441" DESCRIPTION="K=9" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="EXPLORE" TOOLPREFIX="Clus">
+<PROPERTIES Bins="100" Clusvar="_SEGMENT_" ClusvarLabel="Segment Variable" ClusvarRole="SEGMENT" MaxC="9" NominalEncoding="GLM" OrdinalEncoding="RANK" MissingInterval="DEFAULT" MissingNominal="DEFAULT" MissingOrdinal="DEFAULT" ImputationMethod="NONE" HideVariable="Y" TrainDefaults="Y" Learn="." LearnInitial="0.5" LearnFinal="0.02" LearnSteps="1000" MaxIter="10" MaxSteps="1200" XConv="0.0001" Initial="DEFAULT" Drift="N" Radius="0" Stdize="STD" Summary="N" TreeProfile="Y" ClusterGraphs="Y" NumberClusterMethod="USER" DistancePlot="Y" FinalMaxNum="20" AutomaticMaxNum="50" AutomaticMinNum="2" AutomaticMethod="WARD" CCCCutOff="3" ForceRun="N" RunAction="Train" Component="Cluster">
+<VariableProperties/>
+<EmTargetAttributes/>
+<EmVariableAttributes/>
+<EmFileProperties>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMEXPL.CLUSTER.CLASS" COMPONENT="Cluster" ID="Clus8" X="2192" Y="496" DESCRIPTION="K=10" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="EXPLORE" TOOLPREFIX="Clus">
+<PROPERTIES Bins="100" Clusvar="_SEGMENT_" ClusvarLabel="Segment Variable" ClusvarRole="SEGMENT" MaxC="10" NominalEncoding="GLM" OrdinalEncoding="RANK" MissingInterval="DEFAULT" MissingNominal="DEFAULT" MissingOrdinal="DEFAULT" ImputationMethod="NONE" HideVariable="Y" TrainDefaults="Y" Learn="." LearnInitial="0.5" LearnFinal="0.02" LearnSteps="1000" MaxIter="10" MaxSteps="1200" XConv="0.0001" Initial="DEFAULT" Drift="N" Radius="0" Stdize="STD" Summary="N" TreeProfile="Y" ClusterGraphs="Y" NumberClusterMethod="USER" DistancePlot="Y" FinalMaxNum="20" AutomaticMaxNum="50" AutomaticMinNum="2" AutomaticMethod="WARD" CCCCutOff="3" ForceRun="N" RunAction="Train" Component="Cluster">
+<VariableProperties/>
+<EmTargetAttributes/>
+<EmVariableAttributes/>
+<EmFileProperties>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMEXPL.CLUSTER.CLASS" COMPONENT="Cluster" ID="Clus9" X="2193" Y="554" DESCRIPTION="K=11" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="EXPLORE" TOOLPREFIX="Clus">
+<PROPERTIES Bins="100" Clusvar="_SEGMENT_" ClusvarLabel="Segment Variable" ClusvarRole="SEGMENT" MaxC="11" NominalEncoding="GLM" OrdinalEncoding="RANK" MissingInterval="DEFAULT" MissingNominal="DEFAULT" MissingOrdinal="DEFAULT" ImputationMethod="NONE" HideVariable="Y" TrainDefaults="Y" Learn="." LearnInitial="0.5" LearnFinal="0.02" LearnSteps="1000" MaxIter="10" MaxSteps="1200" XConv="0.0001" Initial="DEFAULT" Drift="N" Radius="0" Stdize="STD" Summary="N" TreeProfile="Y" ClusterGraphs="Y" NumberClusterMethod="USER" DistancePlot="Y" FinalMaxNum="20" AutomaticMaxNum="50" AutomaticMinNum="2" AutomaticMethod="WARD" CCCCutOff="3" ForceRun="N" RunAction="Train" Component="Cluster">
+<VariableProperties/>
+<EmTargetAttributes/>
+<EmVariableAttributes/>
+<EmFileProperties>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMCORE.EXTENSION.CLASS" COMPONENT="FileImport" ID="FIMPORT" X="295" Y="86" DESCRIPTION="File Import" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="SAMPLE" TOOLPREFIX="FIMPORT">
+<PROPERTIES Location="CATALOG" Catalog="SASHELP.EMSAMP.FIMPORT.SOURCE" ImportType="Local" GuessRows="500" Delimiter="," NameRow="Y" SkipRows="0" MaxRows="1000000" MaxCols="10000" FileType="xlsx" Role="TRAIN" ForceRun="N" Summarize="N" AdvancedAdvisor="N" RunAction="Train" Component="FileImport" IFileName="C:\Users\UTM\Desktop\MEA - DATASET (Students).xlsx" AccessTable="NoTableName" UserID="NoUserID" Password="NoPassword">
+<VariableProperties/>
+<EmTargetAttributes/>
+<EmVariableAttributes>
+<DELTA Variable="CustID" AttributeName="ROLE" AttributeValue="ID"/>
+<DELTA Variable="CustID" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="Dependents" AttributeName="LEVEL" AttributeValue="BINARY"/>
+<DELTA Variable="Frequency" AttributeName="ROLE" AttributeValue="INPUT"/>
+</EmVariableAttributes>
+<EmFileProperties>
+<USERTRAINCODE Type="EXTERNAL" Extension="sas">
+<Data/>
+</USERTRAINCODE>
+<VARIABLESETDELTA Type="EXTERNAL" Extension="txt">
+<Data><![CDATA[
+if NAME=&quot;CustID&quot; then do;
+ROLE=&quot;ID&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;Dependents&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;Frequency&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;INTERVAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+]]>
+</Data>
+</VARIABLESETDELTA>
+<DELTACODE Type="EXTERNAL" Extension="txt">
+<Data><![CDATA[
+if NAME=&quot;CustID&quot; then do;
+ROLE=&quot;ID&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;Dependents&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;Frequency&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;INTERVAL&quot;;
+ORDER=&quot;&quot;;
+end;
+drop DROP;
+]]>
+</Data>
+</DELTACODE>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMMDFY.FILTERTOOL.CLASS" COMPONENT="Filter" ID="Filter" X="953" Y="88" DESCRIPTION="Filter" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="MODIFY" TOOLPREFIX="Filter">
+<PROPERTIES KeepMissingClass="Y" KeepMissingInterval="Y" NormalizeClassValue="Y" ExportTable="FILTERED" TabletoFilter="TRAIN" IntervalFilterMethod="MANUAL" ClassFilterMethod="NONE" MinFreq="1" MinPercent="0.01" MaxValues="25" MADSCutoff="9" SpacingsCutoff="9" StddevCutoff="3" PercentsCutoff="0.5" PublishScoreCode="Y" CreateDistributionData="Y" UpdateClassLevel="N" ForceRun="N" RunAction="Train" Component="Filter">
+<VariableProperties/>
+<EmTargetAttributes/>
+<EmVariableAttributes>
+<DELTA Variable="Beverages" AttributeName="CALCMETHOD" AttributeValue="MANUAL"/>
+<DELTA Variable="Beverages" AttributeName="INTERVALMIN" AttributeValue="-289.56375"/>
+<DELTA Variable="Beverages" AttributeName="INTERVALMAX" AttributeValue="5000"/>
+<DELTA Variable="Canned" AttributeName="CALCMETHOD" AttributeValue="MANUAL"/>
+<DELTA Variable="Canned" AttributeName="INTERVALMIN" AttributeValue="-660.6175"/>
+<DELTA Variable="Canned" AttributeName="INTERVALMAX" AttributeValue="5681.155"/>
+<DELTA Variable="Frozen" AttributeName="CALCMETHOD" AttributeValue="MANUAL"/>
+<DELTA Variable="Frozen" AttributeName="INTERVALMIN" AttributeValue="-433.503125"/>
+<DELTA Variable="Frozen" AttributeName="INTERVALMAX" AttributeValue="3615.018"/>
+<DELTA Variable="Income" AttributeName="INTERVALMAX" AttributeValue="100000"/>
+<DELTA Variable="Others" AttributeName="CALCMETHOD" AttributeValue="MANUAL"/>
+<DELTA Variable="Others" AttributeName="INTERVALMIN" AttributeValue="-577.4175"/>
+<DELTA Variable="Others" AttributeName="INTERVALMAX" AttributeValue="4352.73"/>
+<DELTA Variable="Perishables" AttributeName="INTERVALMAX" AttributeValue="10000"/>
+</EmVariableAttributes>
+<EmFileProperties>
+<CLASSFILTER Type="DATA">
+<Data/>
+<Metadata>
+<Variable NAME="VARIABLE" LABEL="Variable" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="VALUE" LABEL="Value" LENGTH="15" FORMAT="" TYPE="C"/>
+<Variable NAME="COUNT" LABEL="Frequency Count" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="PERCENT" LABEL="Percent" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="Filter" LABEL="" LENGTH="1" FORMAT="" TYPE="C"/>
+</Metadata>
+</CLASSFILTER>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMCORE.EXTENSION.CLASS" COMPONENT="GraphExplore" ID="GrfExpl" X="436" Y="164" DESCRIPTION="Graph Explore" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="EXPLORE" TOOLPREFIX="GrfExpl">
+<PROPERTIES Location="CATALOG" Catalog="SASHELP.EMEXPL.GRAPHEXPLORE.SOURCE" EmSampleMethod="FIRSTN" EmSampleSize="DEFAULT" EmRandomSeed="12345" Target="Y" GroupByTarget="Y" ForceRun="N" RunAction="Train" Component="GraphExplore" DataSource="SAMPLE" DataNeeded="Y">
+<VariableProperties/>
+<EmTargetAttributes/>
+<EmVariableAttributes/>
+<EmFileProperties>
+<USERTRAINCODE Type="EXTERNAL" Extension="sas">
+<Data/>
+</USERTRAINCODE>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMCORE.EXTENSION.CLASS" COMPONENT="GraphExplore" ID="GrfExpl2" X="743" Y="165" DESCRIPTION="Graph Explore" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="EXPLORE" TOOLPREFIX="GrfExpl">
+<PROPERTIES Location="CATALOG" Catalog="SASHELP.EMEXPL.GRAPHEXPLORE.SOURCE" EmSampleMethod="FIRSTN" EmSampleSize="DEFAULT" EmRandomSeed="12345" Target="Y" GroupByTarget="Y" ForceRun="N" RunAction="Train" Component="GraphExplore" DataSource="SAMPLE" DataNeeded="Y">
+<VariableProperties/>
+<EmTargetAttributes/>
+<EmVariableAttributes/>
+<EmFileProperties>
+<USERTRAINCODE Type="EXTERNAL" Extension="sas">
+<Data/>
+</USERTRAINCODE>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMCORE.EXTENSION.CLASS" COMPONENT="GraphExplore" ID="GrfExpl3" X="1100" Y="197" DESCRIPTION="Graph Explore (3)" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="EXPLORE" TOOLPREFIX="GrfExpl">
+<PROPERTIES Location="CATALOG" Catalog="SASHELP.EMEXPL.GRAPHEXPLORE.SOURCE" EmSampleMethod="FIRSTN" EmSampleSize="DEFAULT" EmRandomSeed="12345" Target="Y" GroupByTarget="Y" ForceRun="N" RunAction="Train" Component="GraphExplore" DataSource="SAMPLE" DataNeeded="Y">
+<VariableProperties/>
+<EmTargetAttributes/>
+<EmVariableAttributes/>
+<EmFileProperties>
+<USERTRAINCODE Type="EXTERNAL" Extension="sas">
+<Data/>
+</USERTRAINCODE>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMMDFY.EMIMPUTE.CLASS" COMPONENT="Impute" ID="Impt" X="1557" Y="88" DESCRIPTION="Impute" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="MODIFY" TOOLPREFIX="Impt">
+<PROPERTIES MethodInterval="TREE" MethodClass="TREE" MethodTargetInterval="NONE" MethodTargetClass="NONE" ABWTuning="9" AHUBERTuning="1.5" AWAVETuning="6.2831853072" SpacingProportion="90" DefaultChar="" DefaultNum="." RandomSeed="12345" Normalize="Y" ImputeNoMissing="N" MaxPctMissing="50" ValidateTestMissing="N" DistributionMissing="N" LeafSize="5" Maxbranch="2" Maxdepth="6" MinCatSize="5" Nrules="5" Nsurrs="2" Splitsize="." Indicator="NONE" IndicatorRole="REJECTED" ReplaceVariable="N" HideVariable="Y" IndicatorSource="IMPUTED" ForceRun="N" RunAction="Train" Component="Impute">
+<VariableProperties/>
+<EmTargetAttributes/>
+<EmVariableAttributes/>
+<EmFileProperties>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMUTIL.EMMETADATA.CLASS" COMPONENT="Metadata" ID="Meta" X="597" Y="86" DESCRIPTION="Metadata" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="UTILITY" TOOLPREFIX="Meta">
+<PROPERTIES HideRejected="N" AdvancedAdvisor="N" CombineRule="NONE" ComputeStatistics="N" ForceRun="N" RunAction="Train" Component="Metadata">
+<VariableProperties/>
+<EmTargetAttributes/>
+<EmVariableAttributes>
+<DELTA Variable="Age" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="Beverages" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="Canned" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="CustID" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="Dependents" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="Education" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="Frequency" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="Frozen" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="Gender" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="Income" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="Internet" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="Marital_Status" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="NPS" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="Others" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="Perishables" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="Recency" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="Target" AttributeName="NEWROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="Target" AttributeName="HIDDEN" AttributeValue="N"/>
+</EmVariableAttributes>
+<EmFileProperties>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+<METACODE_DATA Type="EXTERNAL" Extension="sas">
+<Data><![CDATA[
+*------------------------------------------------------------*;
+* Metadata Changes;
+*------------------------------------------------------------*;
+if upcase(NAME) = &quot;TARGET&quot; then ROLE=&quot;REJECTED&quot;;
+]]>
+</Data>
+</METACODE_DATA>
+<VARIABLEPROPERTIES_DATA Type="EXTERNAL" Extension="sas">
+<Data><![CDATA[
+*------------------------------------------------------------*;
+* Variable Attributes for DATA;
+*------------------------------------------------------------*;
+if upcase(NAME) = &quot;TARGET&quot; then NEWROLE=&quot;REJECTED&quot;;
+]]>
+</Data>
+</VARIABLEPROPERTIES_DATA>
+<IMPORTSET Type="DATA">
+<Data>
+<Obs USE="Y" PORT="DATA" NODELABEL="FIMPORT" NODEPORT="TRAIN" LIBNAME="" DATASET="FIMPORT_train" ROLE="TRAIN" MODTIME="2033891942.5" COLUMNMETA="FIMPORT_CMeta_TRAIN" COLUMNMETAMODTIME="2033891942.7" EMINFO="" EMINFOMODTIME="." NOBS="-1" DATASOURCE=""/>
+<Obs USE="Y" PORT="VALIDATE" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="TEST" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="SCORE" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="TRANSACTION" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="DOCUMENT" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="CLUSMEAN" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="CLUSSTAT" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="ESTIMATE" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="RANK" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="REPORTFIT" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="RULES" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="SCOREDIST" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="TERMS" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="TREE" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="VARMAP" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+</Data>
+<Metadata>
+<Variable NAME="USE" LABEL="" LENGTH="1" FORMAT="" TYPE="C"/>
+<Variable NAME="PORT" LABEL="" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="NODELABEL" LABEL="" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="NODEPORT" LABEL="" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="LIBNAME" LABEL="" LENGTH="8" FORMAT="" TYPE="C"/>
+<Variable NAME="DATASET" LABEL="" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="ROLE" LABEL="" LENGTH="20" FORMAT="" TYPE="C"/>
+<Variable NAME="MODTIME" LABEL="" LENGTH="8" FORMAT="DATETIME20." TYPE="N"/>
+<Variable NAME="COLUMNMETA" LABEL="" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="COLUMNMETAMODTIME" LABEL="" LENGTH="8" FORMAT="DATETIME20." TYPE="N"/>
+<Variable NAME="EMINFO" LABEL="" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="EMINFOMODTIME" LABEL="" LENGTH="8" FORMAT="DATETIME20." TYPE="N"/>
+<Variable NAME="NOBS" LABEL="" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="DATASOURCE" LABEL="" LENGTH="29" FORMAT="" TYPE="C"/>
+</Metadata>
+</IMPORTSET>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMUTIL.EMMETADATA.CLASS" COMPONENT="Metadata" ID="Meta2" X="1994" Y="92" DESCRIPTION="Metadata (2)" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="UTILITY" TOOLPREFIX="Meta">
+<PROPERTIES HideRejected="N" AdvancedAdvisor="N" CombineRule="NONE" ComputeStatistics="N" ForceRun="N" RunAction="Train" Component="Metadata">
+<VariableProperties/>
+<EmTargetAttributes/>
+<EmVariableAttributes>
+<DELTA Variable="Age" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="Beverages" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="Canned" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="CustID" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="Dependents" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="Frozen" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="IMP_Education" AttributeName="NEWROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="IMP_Education" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="IMP_Gender" AttributeName="NEWROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="IMP_Gender" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="IMP_Marital_Status" AttributeName="NEWROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="IMP_Marital_Status" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="IMP_REP_Income" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="IMP_Recency" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="Income" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="NEW_FREQUENCY" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="NPS" AttributeName="NEWROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="NPS" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="ON_STORE" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="Others" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="Perishables" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="REP_Internet" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="Target" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="_WARN_" AttributeName="HIDDEN" AttributeValue="N"/>
+</EmVariableAttributes>
+<EmFileProperties>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+<METACODE_DATA Type="EXTERNAL" Extension="sas">
+<Data><![CDATA[
+*------------------------------------------------------------*;
+* Metadata Changes;
+*------------------------------------------------------------*;
+if upcase(NAME) = &quot;IMP_EDUCATION&quot; then ROLE=&quot;REJECTED&quot;;
+if upcase(NAME) = &quot;IMP_GENDER&quot; then ROLE=&quot;REJECTED&quot;;
+if upcase(NAME) = &quot;IMP_MARITAL_STATUS&quot; then ROLE=&quot;REJECTED&quot;;
+if upcase(NAME) = &quot;NPS&quot; then ROLE=&quot;REJECTED&quot;;
+]]>
+</Data>
+</METACODE_DATA>
+<VARIABLEPROPERTIES_DATA Type="EXTERNAL" Extension="sas">
+<Data><![CDATA[
+*------------------------------------------------------------*;
+* Variable Attributes for DATA;
+*------------------------------------------------------------*;
+if upcase(NAME) = &quot;IMP_EDUCATION&quot; then NEWROLE=&quot;REJECTED&quot;;
+if upcase(NAME) = &quot;IMP_GENDER&quot; then NEWROLE=&quot;REJECTED&quot;;
+if upcase(NAME) = &quot;IMP_MARITAL_STATUS&quot; then NEWROLE=&quot;REJECTED&quot;;
+if upcase(NAME) = &quot;NPS&quot; then NEWROLE=&quot;REJECTED&quot;;
+]]>
+</Data>
+</VARIABLEPROPERTIES_DATA>
+<IMPORTSET Type="DATA">
+<Data>
+<Obs USE="Y" PORT="DATA" NODELABEL="Trans" NODEPORT="TRAIN" LIBNAME="" DATASET="Trans_TRAIN" ROLE="TRAIN" MODTIME="2033891977.3" COLUMNMETA="Trans_CMeta_TRAIN" COLUMNMETAMODTIME="2033891977.6" EMINFO="" EMINFOMODTIME="." NOBS="-1" DATASOURCE=""/>
+<Obs USE="Y" PORT="VALIDATE" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="TEST" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="SCORE" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="TRANSACTION" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="DOCUMENT" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="CLUSMEAN" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="CLUSSTAT" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="ESTIMATE" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="RANK" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="REPORTFIT" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="RULES" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="SCOREDIST" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="TERMS" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="TREE" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="VARMAP" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+</Data>
+<Metadata>
+<Variable NAME="USE" LABEL="" LENGTH="1" FORMAT="" TYPE="C"/>
+<Variable NAME="PORT" LABEL="" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="NODELABEL" LABEL="" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="NODEPORT" LABEL="" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="LIBNAME" LABEL="" LENGTH="8" FORMAT="" TYPE="C"/>
+<Variable NAME="DATASET" LABEL="" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="ROLE" LABEL="" LENGTH="20" FORMAT="" TYPE="C"/>
+<Variable NAME="MODTIME" LABEL="" LENGTH="8" FORMAT="DATETIME20." TYPE="N"/>
+<Variable NAME="COLUMNMETA" LABEL="" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="COLUMNMETAMODTIME" LABEL="" LENGTH="8" FORMAT="DATETIME20." TYPE="N"/>
+<Variable NAME="EMINFO" LABEL="" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="EMINFOMODTIME" LABEL="" LENGTH="8" FORMAT="DATETIME20." TYPE="N"/>
+<Variable NAME="NOBS" LABEL="" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="DATASOURCE" LABEL="" LENGTH="29" FORMAT="" TYPE="C"/>
+</Metadata>
+</IMPORTSET>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMEXPL.MULTIPLOT.CLASS" COMPONENT="MultiPlot" ID="Plot" X="437" Y="218" DESCRIPTION="MultiPlot" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="EXPLORE" TOOLPREFIX="Plot">
+<PROPERTIES OutputCatalog="WORK.GOUT" TrainCode="" NumericThreshold="20" Orientation="VERTICAL" Statistic="FREQ" ShowValues="Y" IncludeMissing="Y" IntervalTargetChart="MEAN" ChartType="CHART" IntTargetRegression="LINEAR" DisplayRegEquation="N" ConfidenceInterval="Y" ImageFormat="GIF" ForceRun="N" RunAction="Train" Component="MultiPlot">
+<VariableProperties/>
+<EmTargetAttributes/>
+<EmVariableAttributes>
+<DELTA Variable="Frequency" AttributeName="USE" AttributeValue="Y"/>
+</EmVariableAttributes>
+<EmFileProperties>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMEXPL.MULTIPLOT.CLASS" COMPONENT="MultiPlot" ID="Plot2" X="739" Y="224" DESCRIPTION="MultiPlot" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="EXPLORE" TOOLPREFIX="Plot">
+<PROPERTIES OutputCatalog="WORK.GOUT" TrainCode="" NumericThreshold="20" Orientation="VERTICAL" Statistic="FREQ" ShowValues="Y" IncludeMissing="Y" IntervalTargetChart="MEAN" ChartType="CHART" IntTargetRegression="LINEAR" DisplayRegEquation="N" ConfidenceInterval="Y" ImageFormat="GIF" ForceRun="N" RunAction="Train" Component="MultiPlot">
+<VariableProperties/>
+<EmTargetAttributes/>
+<EmVariableAttributes/>
+<EmFileProperties>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMEXPL.MULTIPLOT.CLASS" COMPONENT="MultiPlot" ID="Plot3" X="1100" Y="242" DESCRIPTION="MultiPlot (3)" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="EXPLORE" TOOLPREFIX="Plot">
+<PROPERTIES OutputCatalog="WORK.GOUT" TrainCode="" NumericThreshold="20" Orientation="VERTICAL" Statistic="FREQ" ShowValues="Y" IncludeMissing="Y" IntervalTargetChart="MEAN" ChartType="CHART" IntTargetRegression="LINEAR" DisplayRegEquation="N" ConfidenceInterval="Y" ImageFormat="GIF" ForceRun="N" RunAction="Train" Component="MultiPlot">
+<VariableProperties/>
+<EmTargetAttributes/>
+<EmVariableAttributes/>
+<EmFileProperties>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMCORE.EXTENSION.CLASS" COMPONENT="Profile" ID="Prof" X="2376" Y="77" DESCRIPTION="Segment Profile" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="ASSESS" TOOLPREFIX="Prof">
+<PROPERTIES Location="CATALOG" Catalog="SASHELP.EMEXPL.PROFILE.SOURCE" DataNeeded="Y" MinWorth="0.01" MaxNumInput="10" MaxNumReport="10" NumHistBars="8" ProfileAll="N" PrintWorth="Y" UseReportVars="Y" TargetRole="NONE" OtherPercentCutOff="95" MaxDepth="1" ForceRun="N" RunAction="Train" Component="Profile">
+<VariableProperties/>
+<EmTargetAttributes/>
+<EmVariableAttributes/>
+<EmFileProperties>
+<USERTRAINCODE Type="EXTERNAL" Extension="sas">
+<Data/>
+</USERTRAINCODE>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMCORE.EXTENSION.CLASS" COMPONENT="Profile" ID="Prof2" X="2370" Y="140" DESCRIPTION="Segment Profile" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="ASSESS" TOOLPREFIX="Prof">
+<PROPERTIES Location="CATALOG" Catalog="SASHELP.EMEXPL.PROFILE.SOURCE" DataNeeded="Y" MinWorth="0.01" MaxNumInput="10" MaxNumReport="10" NumHistBars="8" ProfileAll="N" PrintWorth="Y" UseReportVars="Y" TargetRole="NONE" OtherPercentCutOff="95" MaxDepth="1" ForceRun="N" RunAction="Train" Component="Profile">
+<VariableProperties/>
+<EmTargetAttributes/>
+<EmVariableAttributes/>
+<EmFileProperties>
+<USERTRAINCODE Type="EXTERNAL" Extension="sas">
+<Data/>
+</USERTRAINCODE>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMCORE.EXTENSION.CLASS" COMPONENT="Profile" ID="Prof3" X="2368" Y="265" DESCRIPTION="Segment Profile" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="ASSESS" TOOLPREFIX="Prof">
+<PROPERTIES Location="CATALOG" Catalog="SASHELP.EMEXPL.PROFILE.SOURCE" DataNeeded="Y" MinWorth="0.01" MaxNumInput="10" MaxNumReport="10" NumHistBars="8" ProfileAll="N" PrintWorth="Y" UseReportVars="Y" TargetRole="NONE" OtherPercentCutOff="95" MaxDepth="1" ForceRun="N" RunAction="Train" Component="Profile">
+<VariableProperties/>
+<EmTargetAttributes/>
+<EmVariableAttributes/>
+<EmFileProperties>
+<USERTRAINCODE Type="EXTERNAL" Extension="sas">
+<Data/>
+</USERTRAINCODE>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMCORE.EXTENSION.CLASS" COMPONENT="Profile" ID="Prof4" X="2373" Y="196" DESCRIPTION="Segment Profile" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="ASSESS" TOOLPREFIX="Prof">
+<PROPERTIES Location="CATALOG" Catalog="SASHELP.EMEXPL.PROFILE.SOURCE" DataNeeded="Y" MinWorth="0.01" MaxNumInput="10" MaxNumReport="10" NumHistBars="8" ProfileAll="N" PrintWorth="Y" UseReportVars="Y" TargetRole="NONE" OtherPercentCutOff="95" MaxDepth="1" ForceRun="N" RunAction="Train" Component="Profile">
+<VariableProperties/>
+<EmTargetAttributes/>
+<EmVariableAttributes/>
+<EmFileProperties>
+<USERTRAINCODE Type="EXTERNAL" Extension="sas">
+<Data/>
+</USERTRAINCODE>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMCORE.EXTENSION.CLASS" COMPONENT="Profile" ID="Prof5" X="2369" Y="324" DESCRIPTION="Segment Profile" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="ASSESS" TOOLPREFIX="Prof">
+<PROPERTIES Location="CATALOG" Catalog="SASHELP.EMEXPL.PROFILE.SOURCE" DataNeeded="Y" MinWorth="0.01" MaxNumInput="10" MaxNumReport="10" NumHistBars="8" ProfileAll="N" PrintWorth="Y" UseReportVars="Y" TargetRole="NONE" OtherPercentCutOff="95" MaxDepth="1" ForceRun="N" RunAction="Train" Component="Profile">
+<VariableProperties/>
+<EmTargetAttributes/>
+<EmVariableAttributes/>
+<EmFileProperties>
+<USERTRAINCODE Type="EXTERNAL" Extension="sas">
+<Data/>
+</USERTRAINCODE>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMCORE.EXTENSION.CLASS" COMPONENT="Profile" ID="Prof6" X="2368" Y="380" DESCRIPTION="Segment Profile" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="ASSESS" TOOLPREFIX="Prof">
+<PROPERTIES Location="CATALOG" Catalog="SASHELP.EMEXPL.PROFILE.SOURCE" DataNeeded="Y" MinWorth="0.01" MaxNumInput="10" MaxNumReport="10" NumHistBars="8" ProfileAll="N" PrintWorth="Y" UseReportVars="Y" TargetRole="NONE" OtherPercentCutOff="95" MaxDepth="1" ForceRun="N" RunAction="Train" Component="Profile">
+<VariableProperties/>
+<EmTargetAttributes/>
+<EmVariableAttributes/>
+<EmFileProperties>
+<USERTRAINCODE Type="EXTERNAL" Extension="sas">
+<Data/>
+</USERTRAINCODE>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMCORE.EXTENSION.CLASS" COMPONENT="Profile" ID="Prof7" X="2368" Y="494" DESCRIPTION="Segment Profile" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="ASSESS" TOOLPREFIX="Prof">
+<PROPERTIES Location="CATALOG" Catalog="SASHELP.EMEXPL.PROFILE.SOURCE" DataNeeded="Y" MinWorth="0.01" MaxNumInput="10" MaxNumReport="10" NumHistBars="8" ProfileAll="N" PrintWorth="Y" UseReportVars="Y" TargetRole="NONE" OtherPercentCutOff="95" MaxDepth="1" ForceRun="N" RunAction="Train" Component="Profile">
+<VariableProperties/>
+<EmTargetAttributes/>
+<EmVariableAttributes/>
+<EmFileProperties>
+<USERTRAINCODE Type="EXTERNAL" Extension="sas">
+<Data/>
+</USERTRAINCODE>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMCORE.EXTENSION.CLASS" COMPONENT="Profile" ID="Prof8" X="2367" Y="440" DESCRIPTION="Segment Profile" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="ASSESS" TOOLPREFIX="Prof">
+<PROPERTIES Location="CATALOG" Catalog="SASHELP.EMEXPL.PROFILE.SOURCE" DataNeeded="Y" MinWorth="0.01" MaxNumInput="10" MaxNumReport="10" NumHistBars="8" ProfileAll="N" PrintWorth="Y" UseReportVars="Y" TargetRole="NONE" OtherPercentCutOff="95" MaxDepth="1" ForceRun="N" RunAction="Train" Component="Profile">
+<VariableProperties/>
+<EmTargetAttributes/>
+<EmVariableAttributes/>
+<EmFileProperties>
+<USERTRAINCODE Type="EXTERNAL" Extension="sas">
+<Data/>
+</USERTRAINCODE>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMCORE.EXTENSION.CLASS" COMPONENT="Profile" ID="Prof9" X="2368" Y="556" DESCRIPTION="Segment Profile" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="ASSESS" TOOLPREFIX="Prof">
+<PROPERTIES Location="CATALOG" Catalog="SASHELP.EMEXPL.PROFILE.SOURCE" DataNeeded="Y" MinWorth="0.01" MaxNumInput="10" MaxNumReport="10" NumHistBars="8" ProfileAll="N" PrintWorth="Y" UseReportVars="Y" TargetRole="NONE" OtherPercentCutOff="95" MaxDepth="1" ForceRun="N" RunAction="Train" Component="Profile">
+<VariableProperties/>
+<EmTargetAttributes/>
+<EmVariableAttributes/>
+<EmFileProperties>
+<USERTRAINCODE Type="EXTERNAL" Extension="sas">
+<Data/>
+</USERTRAINCODE>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMCORE.EXTENSION.CLASS" COMPONENT="Replace" ID="Repl" X="1343" Y="88" DESCRIPTION="Replacement" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="MODIFY" TOOLPREFIX="Repl">
+<PROPERTIES Location="CATALOG" Catalog="SASHELP.EMMDFY.REPLACE.SOURCE" HideVariable="N" UnknownLevel="NONE" ReplaceMethod="COMPUTED" CalcMethod="MANUAL" MADSCutoff="9.0" SpacingsCutoff="9.0" StddevCutoff="3.0" PercentsCutoff="0.5" CountReport="Y" ForceRun="N" RunAction="Train" Component="Replace" IntervalMethod="NONE" DataNeeded="Y">
+<VariableProperties/>
+<EmTargetAttributes/>
+<EmVariableAttributes>
+<DELTA Variable="Income" AttributeName="INTERVALMIN" AttributeValue="9840"/>
+<DELTA Variable="Internet" AttributeName="INTERVALMAX" AttributeValue="100"/>
+</EmVariableAttributes>
+<EmFileProperties>
+<USERTRAINCODE Type="EXTERNAL" Extension="sas">
+<Data/>
+</USERTRAINCODE>
+<NEWVALUES Type="DATA">
+<Data>
+<Obs NAME="Dependents" LEVEL="_UNKNOWN_" TYPE="N" REPLACE_VALUE="_DEFAULT_"/>
+<Obs NAME="Education" LEVEL="_UNKNOWN_" TYPE="C" REPLACE_VALUE="_DEFAULT_"/>
+<Obs NAME="Gender" LEVEL="_UNKNOWN_" TYPE="C" REPLACE_VALUE="_DEFAULT_"/>
+<Obs NAME="Marital_Status" LEVEL="_UNKNOWN_" TYPE="C" REPLACE_VALUE="_DEFAULT_"/>
+</Data>
+<Metadata>
+<Variable NAME="Name" LABEL="Variable" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="LEVEL" LABEL="Formatted Value" LENGTH="15" FORMAT="" TYPE="C"/>
+<Variable NAME="TYPE" LABEL="Type" LENGTH="1" FORMAT="" TYPE="C"/>
+<Variable NAME="REPLACE_VALUE" LABEL="Replacement Value" LENGTH="200" FORMAT="" TYPE="C"/>
+</Metadata>
+</NEWVALUES>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMEXPL.STATEXPLORE.CLASS" COMPONENT="StatExplore" ID="Stat" X="437" Y="267" DESCRIPTION="StatExplore" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="EXPLORE" TOOLPREFIX="Stat">
+<PROPERTIES BySegment="N" Correlation="Y" Spearman="N" Pearson="Y" ChiSquare="Y" ChiSquareInterval="N" ChiSquareIntervalNBins="5" MaximumVars="1000" HideVariable="Y" DropRejected="Y" UseValidate="N" UseTest="N" UseScore="N" NObs="100000" IntervalDistribution="Y" ClassDistribution="Y" LevelSummary="Y" ForceRun="N" RunAction="Train" Component="StatExplore">
+<VariableProperties/>
+<EmTargetAttributes/>
+<EmVariableAttributes/>
+<EmFileProperties>
+<CROSSTAB Type="DATA">
+<Data/>
+<Metadata/>
+</CROSSTAB>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMEXPL.STATEXPLORE.CLASS" COMPONENT="StatExplore" ID="Stat2" X="745" Y="279" DESCRIPTION="StatExplore" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="EXPLORE" TOOLPREFIX="Stat">
+<PROPERTIES BySegment="N" Correlation="Y" Spearman="N" Pearson="Y" ChiSquare="Y" ChiSquareInterval="N" ChiSquareIntervalNBins="5" MaximumVars="1000" HideVariable="Y" DropRejected="Y" UseValidate="N" UseTest="N" UseScore="N" NObs="100000" IntervalDistribution="Y" ClassDistribution="Y" LevelSummary="Y" ForceRun="N" RunAction="Train" Component="StatExplore">
+<VariableProperties/>
+<EmTargetAttributes/>
+<EmVariableAttributes/>
+<EmFileProperties>
+<CROSSTAB Type="DATA">
+<Data/>
+<Metadata/>
+</CROSSTAB>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMEXPL.STATEXPLORE.CLASS" COMPONENT="StatExplore" ID="Stat3" X="1099" Y="149" DESCRIPTION="StatExplore (3)" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="EXPLORE" TOOLPREFIX="Stat">
+<PROPERTIES BySegment="N" Correlation="Y" Spearman="N" Pearson="Y" ChiSquare="Y" ChiSquareInterval="N" ChiSquareIntervalNBins="5" MaximumVars="1000" HideVariable="Y" DropRejected="Y" UseValidate="N" UseTest="N" UseScore="N" NObs="100000" IntervalDistribution="Y" ClassDistribution="Y" LevelSummary="Y" ForceRun="N" RunAction="Train" Component="StatExplore">
+<VariableProperties/>
+<EmTargetAttributes/>
+<EmVariableAttributes/>
+<EmFileProperties>
+<CROSSTAB Type="DATA">
+<Data/>
+<Metadata/>
+</CROSSTAB>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMEXPL.STATEXPLORE.CLASS" COMPONENT="StatExplore" ID="Stat4" X="1488" Y="159" DESCRIPTION="StatExplore (4)" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="EXPLORE" TOOLPREFIX="Stat">
+<PROPERTIES BySegment="N" Correlation="Y" Spearman="N" Pearson="Y" ChiSquare="Y" ChiSquareInterval="N" ChiSquareIntervalNBins="5" MaximumVars="1000" HideVariable="Y" DropRejected="Y" UseValidate="N" UseTest="N" UseScore="N" NObs="100000" IntervalDistribution="Y" ClassDistribution="Y" LevelSummary="Y" ForceRun="N" RunAction="Train" Component="StatExplore">
+<VariableProperties/>
+<EmTargetAttributes/>
+<EmVariableAttributes/>
+<EmFileProperties>
+<CROSSTAB Type="DATA">
+<Data/>
+<Metadata/>
+</CROSSTAB>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMEXPL.STATEXPLORE.CLASS" COMPONENT="StatExplore" ID="Stat5" X="1700" Y="160" DESCRIPTION="StatExplore (5)" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="EXPLORE" TOOLPREFIX="Stat">
+<PROPERTIES BySegment="N" Correlation="Y" Spearman="N" Pearson="Y" ChiSquare="Y" ChiSquareInterval="N" ChiSquareIntervalNBins="5" MaximumVars="1000" HideVariable="Y" DropRejected="Y" UseValidate="N" UseTest="N" UseScore="N" NObs="100000" IntervalDistribution="Y" ClassDistribution="Y" LevelSummary="Y" ForceRun="N" RunAction="Train" Component="StatExplore">
+<VariableProperties/>
+<EmTargetAttributes/>
+<EmVariableAttributes/>
+<EmFileProperties>
+<CROSSTAB Type="DATA">
+<Data/>
+<Metadata/>
+</CROSSTAB>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMMDFY.EMTRANS.CLASS" COMPONENT="Transform" ID="Trans" X="1780" Y="89" DESCRIPTION="Transform Variables" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="MODIFY" TOOLPREFIX="Trans">
+<PROPERTIES DefaultMethod="NONE" DefaultTargetMethod="NONE" DefaultClassMethod="NONE" DefaultClassTargetMethod="NONE" Offset="1" MinOffset="Y" HideVariable="Y" RejectVariable="Y" GroupCutoff="0.1" GroupMissing="N" EmRandomSeed="12345" EmSampleSize="DEFAULT" EmSampleMethod="FIRSTN" MissingValue="USEINSEARCH" SummaryVariables="TRANSFORMED" SummaryStatistics="Y" UseMetaTransform="Y" MissingAsLevel="N" NumberofBins="VARIABLES" MaxOptimalBins="4" ForceRun="N" RunAction="Train" Component="Transform">
+<VariableProperties/>
+<EmTargetAttributes/>
+<EmVariableAttributes/>
+<EmFileProperties>
+<INTERACTION Type="DATA">
+<Data/>
+<Metadata/>
+</INTERACTION>
+<FORMULA Type="DATA">
+<Data>
+<Obs NAME="NEW_FREQUENCY" FORMULA="SQRT (IMP_Frequency ** 2)" TYPE="N" LENGTH="8" FORMAT="" ROLE="INPUT" LEVEL="INTERVAL" REPORT="N" LABEL="" NLEVEL="." NMISS="." MIN="." MAX="." MEAN="." STD="." SKEWNESS="." KURTOSIS="."/>
+<Obs NAME="ON_STORE" FORMULA="NEW_FREQUENCY - ((NEW_FREQUENCY*Internet)/100)" TYPE="N" LENGTH="8" FORMAT="" ROLE="INPUT" LEVEL="INTERVAL" REPORT="N" LABEL="" NLEVEL="." NMISS="." MIN="." MAX="." MEAN="." STD="." SKEWNESS="." KURTOSIS="."/>
+</Data>
+<Metadata>
+<Variable NAME="Name" LABEL="Variable Name" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="Formula" LABEL="Formula" LENGTH="300" FORMAT="" TYPE="C"/>
+<Variable NAME="Type" LABEL="Type" LENGTH="1" FORMAT="" TYPE="C"/>
+<Variable NAME="Length" LABEL="Length" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="Format" LABEL="Format" LENGTH="20" FORMAT="" TYPE="C"/>
+<Variable NAME="Role" LABEL="Role" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="Level" LABEL="Measurement Level" LENGTH="10" FORMAT="" TYPE="C"/>
+<Variable NAME="Report" LABEL="Report" LENGTH="1" FORMAT="" TYPE="C"/>
+<Variable NAME="Label" LABEL="Label" LENGTH="200" FORMAT="" TYPE="C"/>
+<Variable NAME="nlevel" LABEL="Number of Levels" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="nmiss" LABEL="Missing" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="min" LABEL="Minimum" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="max" LABEL="Maximum" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="mean" LABEL="Mean" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="std" LABEL="Standard Deviation" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="skewness" LABEL="Skewness" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="kurtosis" LABEL="Kurtosis" LENGTH="8" FORMAT="" TYPE="N"/>
+</Metadata>
+</FORMULA>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMCORE.EXTENSION.CLASS" COMPONENT="VariableClustering" ID="VarClus" X="437" Y="328" DESCRIPTION="Variable Clustering" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="EXPLORE" TOOLPREFIX="VarClus">
+<PROPERTIES Location="CATALOG" Catalog="SASHELP.EMEXPL.VARIABLECLUSTERING.SOURCE" HideVariable="Y" MaxClus="." ClusSource="CORR" ClusHierachy="Y" IncludeClassVar="N" TwoStageClus="AUTO" SuppressSampWarn="N" ExportedComp="CLUSTERCOMP" MaxEigen="." Proportion="0" PrintOption="SHORT" ForceRun="N" RunAction="Train" Component="VariableClustering" DataNeeded="Y">
+<VariableProperties/>
+<EmTargetAttributes/>
+<EmVariableAttributes/>
+<EmFileProperties>
+<USERTRAINCODE Type="EXTERNAL" Extension="sas">
+<Data/>
+</USERTRAINCODE>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMCORE.EXTENSION.CLASS" COMPONENT="VariableClustering" ID="VarClus2" X="748" Y="328" DESCRIPTION="Variable Clustering (2)" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="EXPLORE" TOOLPREFIX="VarClus">
+<PROPERTIES Location="CATALOG" Catalog="SASHELP.EMEXPL.VARIABLECLUSTERING.SOURCE" HideVariable="Y" MaxClus="." ClusSource="CORR" ClusHierachy="Y" IncludeClassVar="N" TwoStageClus="AUTO" SuppressSampWarn="N" ExportedComp="CLUSTERCOMP" MaxEigen="." Proportion="0" PrintOption="SHORT" ForceRun="N" RunAction="Train" Component="VariableClustering" DataNeeded="Y">
+<VariableProperties/>
+<EmTargetAttributes/>
+<EmVariableAttributes/>
+<EmFileProperties>
+<USERTRAINCODE Type="EXTERNAL" Extension="sas">
+<Data/>
+</USERTRAINCODE>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMCORE.EXTENSION.CLASS" COMPONENT="VariableClustering" ID="VarClus3" X="1102" Y="295" DESCRIPTION="Variable Clustering (3)" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="EXPLORE" TOOLPREFIX="VarClus">
+<PROPERTIES Location="CATALOG" Catalog="SASHELP.EMEXPL.VARIABLECLUSTERING.SOURCE" HideVariable="Y" MaxClus="." ClusSource="CORR" ClusHierachy="Y" IncludeClassVar="N" TwoStageClus="AUTO" SuppressSampWarn="N" ExportedComp="CLUSTERCOMP" MaxEigen="." Proportion="0" PrintOption="SHORT" ForceRun="N" RunAction="Train" Component="VariableClustering" DataNeeded="Y">
+<VariableProperties/>
+<EmTargetAttributes/>
+<EmVariableAttributes/>
+<EmFileProperties>
+<USERTRAINCODE Type="EXTERNAL" Extension="sas">
+<Data/>
+</USERTRAINCODE>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+</NODES>
+<CONNECTIONS>
+<CONNECTION FROM="FIMPORT" TO="VarClus"/>
+<CONNECTION FROM="FIMPORT" TO="GrfExpl"/>
+<CONNECTION FROM="FIMPORT" TO="Stat"/>
+<CONNECTION FROM="FIMPORT" TO="Plot"/>
+<CONNECTION FROM="FIMPORT" TO="Meta"/>
+<CONNECTION FROM="Meta" TO="Filter"/>
+<CONNECTION FROM="Meta" TO="Plot2"/>
+<CONNECTION FROM="Meta" TO="VarClus2"/>
+<CONNECTION FROM="Meta" TO="Stat2"/>
+<CONNECTION FROM="Meta" TO="GrfExpl2"/>
+<CONNECTION FROM="Plot" TO="CNTRL"/>
+<CONNECTION FROM="Stat" TO="CNTRL"/>
+<CONNECTION FROM="GrfExpl" TO="CNTRL"/>
+<CONNECTION FROM="VarClus" TO="CNTRL"/>
+<CONNECTION FROM="GrfExpl2" TO="CNTRL2"/>
+<CONNECTION FROM="Stat2" TO="CNTRL2"/>
+<CONNECTION FROM="VarClus2" TO="CNTRL2"/>
+<CONNECTION FROM="Plot2" TO="CNTRL2"/>
+<CONNECTION FROM="Filter" TO="VarClus3"/>
+<CONNECTION FROM="Filter" TO="Repl"/>
+<CONNECTION FROM="Filter" TO="Plot3"/>
+<CONNECTION FROM="Filter" TO="GrfExpl3"/>
+<CONNECTION FROM="Filter" TO="Stat3"/>
+<CONNECTION FROM="Stat3" TO="CNTRL3"/>
+<CONNECTION FROM="GrfExpl3" TO="CNTRL3"/>
+<CONNECTION FROM="Plot3" TO="CNTRL3"/>
+<CONNECTION FROM="Repl" TO="Stat4"/>
+<CONNECTION FROM="Repl" TO="Impt"/>
+<CONNECTION FROM="VarClus3" TO="CNTRL3"/>
+<CONNECTION FROM="Impt" TO="Trans"/>
+<CONNECTION FROM="Impt" TO="Stat5"/>
+<CONNECTION FROM="Trans" TO="Meta2"/>
+<CONNECTION FROM="Meta2" TO="Clus"/>
+<CONNECTION FROM="Meta2" TO="Clus2"/>
+<CONNECTION FROM="Meta2" TO="Clus3"/>
+<CONNECTION FROM="Meta2" TO="Clus4"/>
+<CONNECTION FROM="Meta2" TO="Clus5"/>
+<CONNECTION FROM="Meta2" TO="Clus6"/>
+<CONNECTION FROM="Meta2" TO="Clus7"/>
+<CONNECTION FROM="Meta2" TO="Clus8"/>
+<CONNECTION FROM="Meta2" TO="Clus9"/>
+<CONNECTION FROM="Clus" TO="Prof"/>
+<CONNECTION FROM="Clus2" TO="Prof2"/>
+<CONNECTION FROM="Clus3" TO="Prof4"/>
+<CONNECTION FROM="Clus4" TO="Prof3"/>
+<CONNECTION FROM="Clus5" TO="Prof5"/>
+<CONNECTION FROM="Clus6" TO="Prof6"/>
+<CONNECTION FROM="Clus7" TO="Prof8"/>
+<CONNECTION FROM="Clus8" TO="Prof7"/>
+<CONNECTION FROM="Clus9" TO="Prof9"/>
+<CONNECTION FROM="Prof" TO="CNTRL4"/>
+<CONNECTION FROM="Prof2" TO="CNTRL4"/>
+<CONNECTION FROM="Prof4" TO="CNTRL4"/>
+<CONNECTION FROM="Prof3" TO="CNTRL4"/>
+<CONNECTION FROM="Prof5" TO="CNTRL4"/>
+<CONNECTION FROM="Prof6" TO="CNTRL4"/>
+<CONNECTION FROM="Prof8" TO="CNTRL4"/>
+<CONNECTION FROM="Prof7" TO="CNTRL4"/>
+<CONNECTION FROM="Prof9" TO="CNTRL4"/>
+</CONNECTIONS>
+<NOTES>
+<DATA><![CDATA[
+
+
+
+
+
+
+]]>
+</DATA>
+</NOTES>
+</Workspace>
+</_ROOT_>
